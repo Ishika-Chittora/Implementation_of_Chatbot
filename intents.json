@@ -1,0 +1,187 @@
+{
+    "intents":[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "hi", "hello", "hey", "good morning", "good afternoon", "good evening"
+        ],
+        "responses": [
+            "Hello! Welcome to the Udaipur Travel Guide. How can I assist you today?",
+            "Hi there! How can I help you with your Udaipur travel plans?"
+        ]
+    },
+    {
+        "tag": "tourist_places",
+        "patterns": [
+            "what are the best tourist places in Udaipur",
+            "top attractions in Udaipur",
+            "places to visit in Udaipur",
+            "what can I see in Udaipur",
+            "famous spots in Udaipur"
+        ],
+        "responses": [
+            "Udaipur is famous for its beautiful lakes and palaces. Some must-visit places are:\n",
+            "City Palace\n","Lake Pichola\n","Jag Mandir\n","Saheliyon Ki Bari\n","Bagore Ki Haveli\n","Monsoon Palace\n","Fateh Sagar Lake\n"
+        ]
+    },
+    {
+        "tag": "city_palace",
+        "patterns": [
+            "tell me about City Palace",
+            "what is City Palace",
+            "information about City Palace",
+            "details about City Palace"
+        ],
+        "responses": [
+            "City Palace is a majestic palace complex in Udaipur. It features:\n",
+            " Museums showcasing royal artifacts.\n",
+            "Beautiful courtyards and gardens.\n",
+            "Stunning views of Lake Pichola.\n",
+            "It's a must-visit for history and architecture lovers!"
+        ]
+    },
+    {
+        "tag": "budget",
+        "patterns": [
+            "what is the budget for Udaipur",
+            "how much does it cost to visit Udaipur",
+            "prices in Udaipur",
+            "cost of traveling to Udaipur",
+            "Udaipur travel expenses"
+        ],
+        "responses": [
+            "The budget for Udaipur depends on your travel style:\n",
+            "Budget Travel**: ₹1000-₹2000 per day (budget hotels, local food, public transport).\n",
+            "Mid-Range Travel**: ₹3000-₹5000 per day (3-star hotels, restaurants, private taxis).\n",
+            "Luxury Travel**: ₹7000+ per day (5-star hotels, fine dining, private tours).\n"
+        ]
+    },
+    {
+        "tag": "boat_ride_cost",
+        "patterns": [
+            "how much does a boat ride cost in Lake Pichola",
+            "boat ride price",
+            "cost of boat ride in Udaipur",
+            "price for boat ride in Lake Pichola"
+        ],
+        "responses": [
+            "The boat ride in Lake Pichola costs around ₹400-₹600 per person for a basic ride. Private boat rides can cost more."
+        ]
+    },
+    {
+        "tag": "restaurants",
+        "patterns": [
+            "best restaurants in Udaipur",
+            "where to eat in Udaipur",
+            "top restaurants in Udaipur",
+            "good places to eat in Udaipur",
+            "famous restaurants in Udaipur"
+        ],
+        "responses": [
+            "Udaipur has some amazing restaurants:\n",
+            "Ambrai: Offers lakeside dining with a view of City Palace.\n",
+            "Upre: Rooftop restaurant with a view of Lake Pichola.\n",
+            "Charcoal By Carlsson: Known for its continental cuisine.\n",
+            "Millets of Mewar: Great for healthy and organic food.\n",
+            "Jheel's Ginger Coffee Bar: Perfect for coffee lovers.\n"
+        ]
+    },
+    {
+        "tag": "weather",
+        "patterns": [
+            "what is the weather like in Udaipur",
+            "best time to visit Udaipur",
+            "Udaipur weather",
+            "climate in Udaipur",
+            "when to visit Udaipur"
+        ],
+        "responses": [
+            "Udaipur has a semi-arid climate",
+            "October to March: Pleasant weather, ideal for sightseeing (15°C to 25°C).\n April to June: Hot and dry (up to 40°C).\n July to September: Monsoon season with moderate rainfall.\n"
+        ]
+    },
+    {
+        "tag": "hotels",
+        "patterns": [
+            "best hotels in Udaipur",
+            "where to stay in Udaipur",
+            "hotels in Udaipur",
+            "top hotels in Udaipur",
+            "luxury hotels in Udaipur"
+        ],
+        "responses": [
+            "Here are some great hotels in Udaipur:\n",
+            "The Oberoi Udaivilas**: A luxury hotel with stunning architecture.\n",
+            "Taj Lake Palace**: An iconic hotel located in the middle of Lake Pichola.\n",
+            "Trident Udaipur**: A mid-range option with beautiful lake views.\n",
+            "Jagat Niwas Palace Hotel**: A heritage hotel with a royal feel.\n",
+            "Treebo Trend Krishna Niwas**: A budget-friendly option with good amenities.\n"
+        ]
+    },
+    {
+        "tag": "souvenirs",
+        "patterns": [
+            "best souvenirs to buy in Udaipur",
+            "what to buy in Udaipur",
+            "gifts from Udaipur",
+            "shopping in Udaipur",
+            "traditional items to buy in Udaipur"
+        ],
+        "responses": [
+            "Udaipur is known for its unique souvenirs and gifts:\n",
+            "Miniature Paintings: Handmade paintings depicting Rajasthani culture.\n",
+            "Silver Jewelry: Exquisite designs crafted by local artisans.\n",
+            "Pichwai Paintings: Traditional cloth paintings of Lord Krishna.\n",
+            "Rajasthani Handicrafts: Pottery, textiles, and wooden items.\n",
+            "Bandhani Sarees: Traditional tie-and-dye sarees.\n",
+            "You can find creative gifts and decorative items at Hathi Pol Bazaar and Bada Bazaar."
+        ]
+    },
+    {
+        "tag": "temples",
+        "patterns": [
+            "famous temples in Udaipur",
+            "temples to visit in Udaipur",
+            "religious places in Udaipur",
+            "top temples in Udaipur",
+            "spiritual places in Udaipur"
+        ],
+        "responses": [
+            "Udaipur has several beautiful temples:\n",
+            "Jagdish Temple: A 17th-century temple dedicated to Lord Vishnu.\n",
+            "Eklingji Temple: A historic temple complex dedicated to Lord Shiva.\n",
+            "Neemach Mata Temple: Located on a hilltop with panoramic views.\n",
+            "Sas Bahu Temple: Known for its intricate carvings.\n",
+            "Shri Manshapurna Karni Mata Temple: A serene temple near the ropeway.\n"
+        ]
+    },
+    {
+        "tag": "transport",
+        "patterns": [
+            "how to travel in Udaipur",
+            "transport in Udaipur",
+            "local transport options in Udaipur",
+            "getting around Udaipur",
+            "travel options in Udaipur"
+        ],
+        "responses": [
+            "Here are some ways to get around Udaipur:\n",
+            "Auto-rickshaws: Affordable and widely available.\n",
+            "Taxis: Private taxis can be hired for full-day tours.\n",
+            "Buses: Local buses connect major areas.\n",
+            "Bike Rentals: Scooters and bikes can be rented for self-exploration.\n",
+            "Boat Rides: Available on Lake Pichola and Fateh Sagar Lake.\n"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "bye", "goodbye", "see you later", "take care", "quit"
+        ],
+        "responses": [
+            "Thank you for using the Udaipur Travel Guide. Have a great trip!",
+            "Goodbye! Safe travels!"
+        ]
+    }
+]
+}
